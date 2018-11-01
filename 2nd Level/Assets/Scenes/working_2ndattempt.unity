@@ -34,7 +34,7 @@ RenderSettings:
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
+  m_ReflectionBounces: 2
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
@@ -48,8 +48,8 @@ LightmapSettings:
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
-    m_IndirectOutputScale: 1
-    m_AlbedoBoost: 1
+    m_IndirectOutputScale: 2.29
+    m_AlbedoBoost: 2.62
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
     m_EnableBakedLightmaps: 0
@@ -2138,7 +2138,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.7490196, g: 0.5254902, b: 0.38823533, a: 1}
-  m_Intensity: 0.4
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -2171,13 +2171,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.5079133, y: 0.21759692, z: 0.696437, w: 0.4578769}
+  m_LocalRotation: {x: 0.60769844, y: 0.14560756, z: 0.6113125, w: 0.48559043}
   m_LocalPosition: {x: 423.7, y: -59.96, z: 426.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 9.325001, y: 66.761, z: 119.506004}
+  m_LocalEulerAnglesHint: {x: 24.341002, y: 76.092, z: 122.23701}
 --- !u!1001 &174828876
 Prefab:
   m_ObjectHideFlags: 0
@@ -20697,81 +20697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 335cca68f149de548b39b11347b96b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  terrains:
-  - {fileID: 1571744590}
-  _terrain: {fileID: 1571744590}
-  preset:
-    brushSize: 20.595873
-    brushFallof: 0.6
-    brushSpacing: 0.15
-    downscale: 1
-    blur: 0.1
-    preserveDetail: 0
-    isErosion: 1
-    isNoise: 0
-    noise_seed: 12345
-    noise_amount: 20
-    noise_size: 200
-    noise_detail: 0.55
-    noise_uplift: 0.8
-    noise_ruffle: 1
-    erosion_iterations: 3
-    erosion_durability: 0.9
-    erosion_fluidityIterations: 3
-    erosion_amount: 1
-    sediment_amount: 0.8
-    wind_amount: 0.75
-    erosion_smooth: 0.5609038
-    ruffle: 0.5
-    foreground:
-      apply: 1
-      opacity: 1
-      num: 0
-    background:
-      apply: 1
-      opacity: 1.4765189
-      num: 2
-    name: 
-    saveBrushSize: 0
-    saveBrushParams: 0
-    saveErosionNoiseParams: 0
-    saveSplatParams: 0
-  presets: []
-  guiSelectedPreset: 0
-  paint: 0
-  wasPaint: 0
-  moveDown: 0
-  moveTfm: {fileID: 0}
-  gen: 0
-  undo: 0
-  guiApplyIterations: 1
-  guiChannels: 
-  guiChannelNames: []
-  guiBrushColor:
-    r: 1
-    g: 0.7
-    b: 0.3
-    a: 1
-  guiBrushThickness: 4
-  guiBrushNumCorners: 32
-  recordUndo: 1
-  unity5positioning: 0
-  focusOnBrush: 1
-  guiShowPreset: 1
-  guiShowBrush: 1
-  guiShowErosion: 1
-  guiShowNoise: 1
-  guiShowTextures: 1
-  guiShowGlobal: 0
-  guiShowSettings: 0
-  guiShowAbout: 0
-  guiMaxBrushSize: 100
-  guiSelectPresetsUsingNumkeys: 1
-  guiControlUsed: 0
-  applyCount: 0
-  currentUndoState: 8
-  referenceUndoState: 8
-  allowUndo: 0
 --- !u!1001 &1581839515
 Prefab:
   m_ObjectHideFlags: 0
